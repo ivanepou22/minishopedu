@@ -1,15 +1,9 @@
-# React-fullstack
-View the class learning plan  [Google docs here](https://docs.google.com/document/d/15sVzRMeCP6-zSroN4y4W1KSfM7vI_njuua0aBcOf9KA/edit?usp=sharing)
+# Getting Started with Edu Mini Shop Tutorial cade
 
-### Learning ES6 
+This project was Built on  [Create React App](https://github.com/facebook/create-react-app).
+## Todos
+- clone the repository
+-  Install dependancies use `npm install` or `yarn install`
+-  Have fun
 
-1. Download Node  [Nodejs docs](https://nodejs.org/en/)
-2. check node version `Node -v`
-3. `npm init` and follow prompt
-4. Ensure type in package.json is "Module"
-5. Then have a Blast....
 
-### Resources
-- [w3schools](https://www.w3schools.com/js/js_es6.asp)
-- [GitHub Resource](https://github.com/lukehoban/es6features)
- 
