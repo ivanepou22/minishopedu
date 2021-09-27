@@ -6,6 +6,7 @@ import sugar from '../images/supermarket/sugar.jpg'
 import earphones from '../images/pnones_tablets/earphones.jpg'
 import iphone from '../images/pnones_tablets/iphone 12.jpg'
 import nokia from '../images/pnones_tablets/nokia.jpg'
+import nokia1 from '../images/pnones_tablets/nokia.jpg'
 import techno from '../images/pnones_tablets/techno.jpg'
 import tablet from '../images/pnones_tablets/tablet.jpg'
 import speaker1 from '../images/electronics/speaker1.jpg'
@@ -25,7 +26,7 @@ import printer from '../images/computing/printer.jpg'
 
 
   export const data = [
-  {
+    {
        "id": 1,
         "category":"Supermarket",
         "product": "cocksoda",
@@ -62,6 +63,15 @@ import printer from '../images/computing/printer.jpg'
         "star": 3
       },
       {
+        "id": 32,
+        "category":"Supermarket",
+        "product": "Lato Milk",
+        "image": LatoMilk,
+        "desc": "Lato Milk - 500g",
+        "price": 15000,
+        "star": 4
+      },
+      {
         "id": 5,
         "category":"Supermarket",
         "product": "Sugar",
@@ -72,7 +82,7 @@ import printer from '../images/computing/printer.jpg'
       },
 
 
-      
+
       {
         id: 6,
          "category":"Phones and Tablets",
@@ -118,11 +128,20 @@ import printer from '../images/computing/printer.jpg'
          "price": 350000,
          "star": 5
        },
+       {
+         id: 77,
+         "category":"Phones and Tablets",
+         "product": "Nokia",
+         "image": nokia1,
+         "desc": "Nokia 105 1.80'' Inches 4MB ROM 800mAh Battery Single Sim Phone - Black",
+         "price": 6900,
+         "star": 3
+       },
 
 
 
        {
-        id: 0,
+        id: 10,
          "category":"Electronics",
          "product": "Speaker ",
          "image": speaker1,
@@ -156,6 +175,15 @@ import printer from '../images/computing/printer.jpg'
          "desc": "Samsung 55'', Smart LED TV, Curve UHD TV4K - Black",
          "price": 5500000,
          "star": 3
+       },
+       {
+        id: 110,
+         "category":"Electronics",
+         "product": "Speaker ",
+         "image": speaker1,
+         "desc": "Golden Tech 6.1Sub-woofer - Black",
+         "price": 555000,
+         "star": 2
        },
        {
          id: 14,
@@ -213,7 +241,16 @@ import printer from '../images/computing/printer.jpg'
          "desc": "Generic Waist Trainer Belt Waist Cincher Trimmer - Sport Girdle Belt",
          "price": 55426,
          "star": 5
-       }, 
+       },
+       {
+        id: 116,
+        "category":"Sports",
+        "product": "Generic Ball",
+        "image": ball,
+        "desc": "Generic Spectacular Size 6 Football /Soccer Ball - White/Blue",
+        "price": 45000,
+        "star": 1
+      },
 
 
 
@@ -262,6 +299,16 @@ import printer from '../images/computing/printer.jpg'
          "desc": "Hp Deskjet All-in-One Inkjet Printer- White",
          "price": 175000,
          "star": 3
-       } 
+       }
+       ,
+       {
+         id: 123,
+         "category":"computing",
+         "product": "Hard Disk",
+         "image": HDD,
+         "desc": "Transcend 2TB Transcend Portable USB 3.0 Hard Disk - Black, Green",
+         "price": 210000,
+         "star": 5
+       }
 
 ]

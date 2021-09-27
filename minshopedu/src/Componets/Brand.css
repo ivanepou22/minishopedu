@@ -1,0 +1,22 @@
+.Brand {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+}
+
+.brand_container {
+    background-color: white;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.brand_container img {
+    width: 50px;
+    padding-right: 20px;
+}
+
+.brand_container p {
+    font-weight: 600;
+}

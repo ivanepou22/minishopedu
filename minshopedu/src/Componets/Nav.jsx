@@ -4,14 +4,17 @@ function Nav() {
     return (
         <div className="nav">
             <div className="logo">
-                <span>Comart</span>
+                <span>{/* Logo */}</span>
             </div>
-            <div className="menu">
-                <ul>
-                    <li>Home</li>
-                    <li>Contact</li>
-                    <li>About</li>
-                </ul>
+            <div className="search_area">
+                {/* Search Input */}
+                {/* Search Button */}
+            </div>
+            <div className="right_menu">
+                {/* Account - dropDown */}
+                {/* Help  - dropDown*/}
+                {/* Cart */}
+
             </div>
         </div>
     )
